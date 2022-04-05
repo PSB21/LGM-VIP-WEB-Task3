@@ -1,0 +1,10 @@
+body{
+    background-color: light;
+    color: black;
+    height:50px;
+}
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }
